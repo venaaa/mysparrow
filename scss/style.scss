@@ -1,2 +1,31 @@
 @import 'normalize.css';
 
+$aqua-text: #11ABB0;
+$grey-text: #838C95;
+
+// === SECTION ABOUT ===
+
+.section-about {
+    .section-inner {
+        margin-top: 250px;
+        padding-bottom: 60px;
+        border-bottom: 1px solid grey;
+    }
+
+    &-wrapper {
+        &__title {
+            font-size: 24px;
+            line-height: 1em;
+            font-weight: 700;
+            color: $aqua-text;
+        }
+
+        &__desc {
+            margin-top: 10px;
+            font-size: 15px;
+            line-height: 30px;
+            color: $grey-text;
+        }
+    }
+}
+// === / SECTION ABOUT ===

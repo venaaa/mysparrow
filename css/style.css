@@ -1,1 +1,17 @@
 @import url(normalize.css);
+.section-about .section-inner {
+  margin-top: 250px;
+  padding-bottom: 60px;
+  border-bottom: 1px solid grey; }
+
+.section-about-wrapper__title {
+  font-size: 24px;
+  line-height: 1em;
+  font-weight: 700;
+  color: #11ABB0; }
+
+.section-about-wrapper__desc {
+  margin-top: 10px;
+  font-size: 15px;
+  line-height: 30px;
+  color: #838C95; }
