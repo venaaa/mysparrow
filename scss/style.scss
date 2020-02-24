@@ -1,7 +1,8 @@
 @import 'normalize.css';
 
 $aqua-text: #11ABB0;
-$grey-text: #838C95;
+$grey-desc-text: #838C95;
+$grey-title-text: #A1A8AF;
 
 // === SECTION ABOUT ===
 
@@ -9,7 +10,6 @@ $grey-text: #838C95;
     .section-inner {
         margin-top: 250px;
         padding-bottom: 60px;
-        border-bottom: 1px solid grey;
     }
 
     &-wrapper {
@@ -24,8 +24,43 @@ $grey-text: #838C95;
             margin-top: 10px;
             font-size: 15px;
             line-height: 30px;
-            color: $grey-text;
+            color: $grey-desc-text;
         }
     }
 }
+
 // === / SECTION ABOUT ===
+
+// === SECTION WORK ===
+
+.section-work {
+    .section-inner {
+        padding-top: 48px;
+        padding-bottom: 36px;
+        border-top: 1px solid #E3E8E8;
+        border-bottom: 1px solid #E3E8E8;
+    }
+
+    &-wrapper {
+        &__title {
+            margin-bottom: 40px;
+            font-size: 24px;
+            font-weight: 700;
+            color: $grey-title-text;
+        }
+
+        &__item-title {
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: 700;
+            color: $aqua-text;
+        }
+
+        &__item-desc {
+            font-size: 14px;
+            color: $grey-desc-text;
+        }
+    }
+}
+
+// === / SECTION WORK ===

@@ -1,8 +1,7 @@
 @import url(normalize.css);
 .section-about .section-inner {
   margin-top: 250px;
-  padding-bottom: 60px;
-  border-bottom: 1px solid grey; }
+  padding-bottom: 60px; }
 
 .section-about-wrapper__title {
   font-size: 24px;
@@ -14,4 +13,26 @@
   margin-top: 10px;
   font-size: 15px;
   line-height: 30px;
+  color: #838C95; }
+
+.section-work .section-inner {
+  padding-top: 48px;
+  padding-bottom: 36px;
+  border-top: 1px solid #E3E8E8;
+  border-bottom: 1px solid #E3E8E8; }
+
+.section-work-wrapper__title {
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #A1A8AF; }
+
+.section-work-wrapper__item-title {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #11ABB0; }
+
+.section-work-wrapper__item-desc {
+  font-size: 14px;
   color: #838C95; }
